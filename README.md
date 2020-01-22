@@ -1,1 +1,1 @@
-# React connection component
+# React offline component

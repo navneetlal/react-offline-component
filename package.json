@@ -4,7 +4,8 @@
   "description": "Checks net connection and renders component accordingly",
   "main": "dist/index.js",
   "scripts": {
-    "lint": "tslint src/**/*.ts"
+    "lint": "tslint src/**/*.ts",
+    "prepare": "tsc"
   },
   "repository": {
     "type": "git",
