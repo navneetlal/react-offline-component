@@ -1,8 +1,8 @@
 {
-  "name": "react-detect-connection",
-  "version": "1.0.0",
+  "name": "react-offline-component",
+  "version": "0.1.0",
   "description": "Checks net connection and renders component accordingly",
-  "main": "index.ts",
+  "main": "dist/index.js",
   "scripts": {
     "lint": "tslint src/**/*.ts"
   },
@@ -26,5 +26,10 @@
   "devDependencies": {
     "tslint": "^6.0.0",
     "typescript": "^3.7.5"
+  },
+  "peerDependencies": {
+    "@types/react": "16.8.24",
+    "react": "16.8.0",
+    "react-dom": "16.8.0"
   }
 }

@@ -1,4 +1,4 @@
-import { Component, isValidElement, createElement, Children, ReactChild } from 'react';
+import { Component, isValidElement, createElement, Children } from 'react';
 
 const inBrowser = typeof navigator !== "undefined";
 
