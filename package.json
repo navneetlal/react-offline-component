@@ -1,0 +1,30 @@
+{
+  "name": "react-detect-connection",
+  "version": "1.0.0",
+  "description": "Checks net connection and renders component accordingly",
+  "main": "index.ts",
+  "scripts": {
+    "lint": "tslint src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navneetlal/react-detect-connection.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "offline",
+    "online",
+    "detector"
+  ],
+  "author": "Navneet Lal Gupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/navneetlal/react-detect-connection/issues"
+  },
+  "homepage": "https://github.com/navneetlal/react-detect-connection#readme",
+  "devDependencies": {
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  }
+}
