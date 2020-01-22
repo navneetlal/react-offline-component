@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/navneetlal/react-detect-connection.git"
+    "url": "git+https://github.com/navneetlal/react-offline-component.git"
   },
   "keywords": [
     "react",
@@ -21,9 +21,9 @@
   "author": "Navneet Lal Gupta",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/navneetlal/react-detect-connection/issues"
+    "url": "https://github.com/navneetlal/react-offline-component/issues"
   },
-  "homepage": "https://github.com/navneetlal/react-detect-connection#readme",
+  "homepage": "https://github.com/navneetlal/react-offline-component#readme",
   "devDependencies": {
     "tslint": "^6.0.0",
     "typescript": "^3.7.5"
