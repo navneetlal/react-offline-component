@@ -1,9 +1,21 @@
-[![GitHub license](https://img.shields.io/github/license/navneetlal/react-offline-component?style=for-the-badge&logo=appveyor)](https://github.com/navneetlal/react-offline-component/blob/master/LICENSE)
-![npm](https://img.shields.io/npm/v/react-offline-component?color=blue)
+<h1 align="center">React offline component</h1>
+<p align="center">
+  Simple react component that enables you to render content based on net connectivity (i.e. Online | Offline)
+</p>
 
-# React offline component
-
-Simple react component that enables you to render content based on net connectivity (i.e. Online | Offline)
+<p align="center">
+  <a href="https://github.com/navneetlal/react-offline-component/blob/master/LICENSE">
+    <img alt="GitHub license" src="https://img.shields.io/github/license/navneetlal/react-offline-component">
+  </a>
+  <a href="https://github.com/navneetlal/react-offline-component/issues">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/navneetlal/react-offline-component">
+  </a>
+  <img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/navneetlal/react-offline-component">
+  <a href="https://www.npmjs.com/package/react-offline-component">
+    <img alt="npm" src="https://img.shields.io/npm/v/react-offline-component?color=blue">
+  </a>
+  <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/react-offline-component">
+</p>
 
 ### Installing
 
