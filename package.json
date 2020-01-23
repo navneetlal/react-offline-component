@@ -1,6 +1,6 @@
 {
   "name": "react-offline-component",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0-alpha.2",
   "description": "Checks net connection and renders component accordingly",
   "main": "dist/index.js",
   "scripts": {

@@ -1,9 +1,4 @@
-<h1 align="center">React offline component</h1>
-<p align="center">
-  Simple react component that enables you to render content based on net connectivity (i.e. Online | Offline)
-</p>
-
-<p align="center">
+<p>
   <a href="https://github.com/navneetlal/react-offline-component/blob/master/LICENSE">
     <img alt="GitHub license" src="https://img.shields.io/github/license/navneetlal/react-offline-component">
   </a>
@@ -16,6 +11,11 @@
   </a>
   <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/react-offline-component">
 </p>
+
+# React offline component
+<!-- <p align="center"> -->
+  Simple react component that enables you to render content based on net connectivity (i.e. Online | Offline)
+<!-- </p> -->
 
 ### Installing
 
