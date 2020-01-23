@@ -56,7 +56,9 @@ class Base extends react_1.Component {
     }
     renderChildren() {
         const { children } = this.props;
-        const wrapperType = typeof this.props.wrapperType === "undefined" ? "span" : this.props.wrapperType;
+        const wrapperType = typeof this.props.wrapperType === "undefined"
+            ? "span"
+            : this.props.wrapperType;
         // usual case: one child that is a react Element
         if (react_1.isValidElement(children)) {
             return children;

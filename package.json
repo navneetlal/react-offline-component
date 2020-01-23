@@ -1,6 +1,6 @@
 {
   "name": "react-offline-component",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha.0",
   "description": "Checks net connection and renders component accordingly",
   "main": "dist/index.js",
   "scripts": {
@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/navneetlal/react-offline-component#readme",
   "devDependencies": {
-    "tslint": "^6.0.0",
     "typescript": "^3.7.5"
   },
   "peerDependencies": {

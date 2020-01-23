@@ -1,4 +1,4 @@
-import { Component, isValidElement, createElement, Children } from 'react';
+import { Component, isValidElement, createElement, Children, ElementType } from 'react';
 
 const inBrowser = typeof navigator !== "undefined";
 
@@ -47,8 +47,8 @@ const defaultPollingConfig = {
 
 export interface IBaseProps {
   onChange: (online: boolean) => void
-  polling: IPooling | boolean
-  wrapperType: string
+  polling: Partial<IPooling> | boolean
+  wrapperType: ElementType
 }
 
 export interface IBaseState {
@@ -88,7 +88,9 @@ export class Base<T extends Partial<IBaseProps>> extends Component<T, IBaseState
 
   public renderChildren() {
     const { children } = this.props;
-    const wrapperType = typeof this.props.wrapperType === "undefined" ? "span" : this.props.wrapperType as string;
+    const wrapperType: ElementType = typeof this.props.wrapperType === "undefined"
+      ? "span"
+      : this.props.wrapperType as ElementType;
 
     // usual case: one child that is a react Element
     if (isValidElement(children)) {
@@ -144,7 +146,6 @@ export class Base<T extends Partial<IBaseProps>> extends Component<T, IBaseState
         online ? this.goOnline() : this.goOffline();
       });
     }, interval) as any;
-
   }
 
   public stopPolling() {

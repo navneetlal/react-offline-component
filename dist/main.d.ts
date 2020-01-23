@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import { Component, ElementType } from 'react';
 export interface IPooling {
     enabled: boolean;
     url: string;
@@ -7,8 +7,8 @@ export interface IPooling {
 }
 export interface IBaseProps {
     onChange: (online: boolean) => void;
-    polling: IPooling | boolean;
-    wrapperType: string;
+    polling: Partial<IPooling> | boolean;
+    wrapperType: ElementType;
 }
 export interface IBaseState {
     online: boolean;

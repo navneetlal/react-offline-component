@@ -15,7 +15,7 @@ $ npm install react-offline-component --save
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Online } from 'react-offline-component';
+import { Online, Offline } from 'react-offline-component';
 
 const MainComponent = () => {
   return (
@@ -26,7 +26,7 @@ const MainComponent = () => {
   )
 }
 
-ReactDOM.render(<MainComponent />,  document.getElementById('root'));
+ReactDOM.render(<MainComponent />, document.getElementById('root'));
 ```
 
 Both `Online` as well as `Offline` are conditional components. So, you won't be seeing any online or offline component unless you are in that state.
