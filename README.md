@@ -1,4 +1,5 @@
 [![GitHub license](https://img.shields.io/github/license/navneetlal/react-offline-component?style=for-the-badge&logo=appveyor)](https://github.com/navneetlal/react-offline-component/blob/master/LICENSE)
+![npm](https://img.shields.io/npm/v/react-offline-component?color=blue)
 
 # React offline component
 
