@@ -40,7 +40,7 @@ const ping = ({ url, timeout }: Omit<IPooling, 'interval' | 'enabled'>) => {
 
 const defaultPollingConfig = {
   enabled: inBrowser && unsupportedUserAgentsPattern.test(navigator.userAgent),
-  url: "https://api.myip.com",
+  url: "https://ipv4.icanhazip.com/",
   timeout: 5000,
   interval: 5000
 };
