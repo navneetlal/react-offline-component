@@ -5,6 +5,7 @@ export interface IDetectorProps extends Partial<IBaseProps> {
 }
 
 export class Detector extends Base<IDetectorProps> {
+  constructor(props: IDetectorProps) { super(props) }
   render() {
     return this.props.render!({ online: this.state.online });
   }

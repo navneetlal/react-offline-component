@@ -6,6 +6,7 @@ export interface IOnlineProps extends Partial<IBaseProps> {
 }
 
 export class Online extends Base<IOnlineProps> {
+  constructor(props: IOnlineProps) { super(props) }
   render() {
     return this.state.online ? this.renderChildren() : null;
   }

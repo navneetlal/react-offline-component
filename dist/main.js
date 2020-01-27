@@ -28,18 +28,21 @@ const ping = ({ url, timeout }) => {
 };
 const defaultPollingConfig = {
     enabled: inBrowser && unsupportedUserAgentsPattern.test(navigator.userAgent),
-    url: "https://api.myip.com",
+    url: "https://ipv4.icanhazip.com/",
     timeout: 5000,
     interval: 5000
 };
 class Base extends react_1.Component {
-    constructor(props) {
-        super(props);
+    constructor() {
+        super(...arguments);
+        // constructor(props: T) {
+        // super(props)
         this.state = {
             online: inBrowser && typeof navigator.onLine === "boolean"
                 ? navigator.onLine : true
         };
     }
+    // }
     componentDidMount() {
         window.addEventListener("online", this.goOnline);
         window.addEventListener("offline", this.goOffline);

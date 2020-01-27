@@ -6,6 +6,7 @@ export interface IOfflineProps extends Partial<IBaseProps> {
 }
 
 export class Offline extends Base<IOfflineProps> {
+  constructor(props: IOfflineProps) { super(props) }
   render() {
     return !this.state.online ? this.renderChildren() : null;
   }
