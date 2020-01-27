@@ -15,9 +15,7 @@ export interface IBaseState {
 }
 export declare class Base<T extends Partial<IBaseProps>> extends Component<T, IBaseState> {
     pollingId?: number;
-    state: {
-        online: boolean;
-    };
+    constructor(props: T);
     componentDidMount(): void;
     componentWillUnmount(): void;
     renderChildren(): import("react").ReactElement<any, string | ((props: any) => import("react").ReactElement<any, string | any | (new (props: any) => Component<any, any, any>)> | null) | (new (props: any) => Component<any, any, any>)> | null;

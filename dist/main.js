@@ -33,16 +33,13 @@ const defaultPollingConfig = {
     interval: 5000
 };
 class Base extends react_1.Component {
-    constructor() {
-        super(...arguments);
-        // constructor(props: T) {
-        // super(props)
+    constructor(props) {
+        super(props);
         this.state = {
             online: inBrowser && typeof navigator.onLine === "boolean"
                 ? navigator.onLine : true
         };
     }
-    // }
     componentDidMount() {
         window.addEventListener("online", this.goOnline);
         window.addEventListener("offline", this.goOffline);

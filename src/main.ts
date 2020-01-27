@@ -59,14 +59,14 @@ export class Base<T extends Partial<IBaseProps>> extends Component<T, IBaseState
 
   public pollingId?: number;
 
-  // constructor(props: T) {
-    // super(props)
-    public state = {
+  constructor(props: T) {
+    super(props)
+    this.state = {
       online:
         inBrowser && typeof navigator.onLine === "boolean"
           ? navigator.onLine : true
     }
-  // }
+  }
 
   public componentDidMount() {
     window.addEventListener("online", this.goOnline);
